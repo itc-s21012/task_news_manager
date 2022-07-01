@@ -6,7 +6,7 @@ import java.sql.Timestamp
 data class NewsWithRentalRecord(
     var id: Long? = null,
     var title: String? = null,
-    var categoryId: String? = null,
+    var categoryId: Long? = null,
     var createAt: Timestamp? = null,
     var publishAt: Timestamp? = null,
     var userId: Long? = null,

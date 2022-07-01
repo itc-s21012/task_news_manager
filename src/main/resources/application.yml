@@ -1,8 +1,9 @@
 spring:
   datasource:
-    url: jdbc://127.0.0.1:3306/task_news_manager?characterEncoding=utf8
+    url: jdbc:mariadb//127.0.0.1:3306/task_news_release?characterEncoding=utf8
     username: news
     password: foobarhogepiyo
     driverClassName: org.mariadb.jdbc.Driver
+
   jackson:
     property-naming-strategy: SNAKE_CASE

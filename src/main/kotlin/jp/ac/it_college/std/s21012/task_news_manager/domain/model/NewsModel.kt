@@ -10,4 +10,4 @@ data class NewsModel(
     val userId: Long? = null,
     val createAt: Timestamp? = null,
     val publishAt: Timestamp? = null,
-    )
+)
